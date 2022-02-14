@@ -1,8 +1,8 @@
 /*Classe que configura a janela para executar funções de acordo com sua orientação*/
-function Orientacao(funcao_retrato, funcao_paisagem) {
+function Orientacao() {
 	window.addEventListener('resize', this.ajustarOrientacao);
-	this.port_func = [funcao_port];
-	this.land_func = [funcao_land];
+	this.port_func = [];
+	this.land_func = [];
 }
 
 Orientacao.prototype.novaFuncaoRetrato = function(funcao) {
