@@ -1,0 +1,18 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/*
+Esta regra será aplicada em
+aparelhos com uma largura de 320px a 480px,
+o que atende a maioria de smartphones.
+*/
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/*tablets*/
+}
+@media only screen and (min-width : 1024px) {
+/*Notebooks e TVs.*/
+}
