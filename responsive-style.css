@@ -1,18 +1,34 @@
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/*
-Esta regra será aplicada em
-aparelhos com uma largura de 320px a 480px,
-o que atende a maioria de smartphones.
-*/
+/*aplica opcionalmente as propriedades padrões*/
+
+
+
+/*para telas orientação retrato de 993px até 1024px de largura*/
+@media (max-device-width: 1024px) {
+	
 }
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-/*tablets*/
+
+/*para telas orientação retrato de 769px até 992px de largura*/
+@media (max-device-width: 991px) {
+	
 }
-@media only screen and (min-width : 1024px) {
-/*Notebooks e TVs.*/
+
+/*para telas orientação retrato de 481px até 768px de largura*/
+@media (max-device-width: 768px) {
+	
 }
+
+/*para telas orientação retrato de 321px até 480px de largura*/
+@media (max-device-width: 480px) {
+	
+}
+
+/*para telas orientação retrato até 320px de largura*/
+@media (max-device-width: 320px) {
+	
+}
+
+/*para orientação paisagem ou para telas maiores que 1024px de largura */
+@media (orientation: landscape), (min-device-width: 1024px) {
+	
+}
+
