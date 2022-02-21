@@ -58,7 +58,7 @@ Responsivo.prototype.ajustarResponsividade = function() {
 		for (var i in this.max480_func) {
 			this.max480_func[i]();
 		}
-	} else if (window.screen.width <= 768) { // para telas orientação retrato de 481px até 780px de largura
+	} else if (window.screen.width <= 768) { // para telas orientação retrato de 481px até 768px de largura
 		for (var i in this.max768_func) {
 			this.max768_func[i]();
 		}
