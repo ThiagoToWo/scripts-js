@@ -16,7 +16,7 @@ StringTokenizer.prototype = {
 		
 		for (var i = 0; i < str.length; i++) {
 			for (var j = 0; j < sep.length; j++) {
-				if (letras[i] == sep.charAt(j) {
+				if (letras[i] == sep.charAt(j)) {
 					letras[i] = '\0';
 					mark++;
 				}
